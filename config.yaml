@@ -1,0 +1,13 @@
+udp_port: 514
+http_port: 8080
+db_path: ./logs.db
+retention_days: 30
+queue_size: 10000
+audit_log_path: ./audit.log
+ui_language: zh-CN
+allowed_cidrs:
+    - 127.0.0.1/32
+    - ::1/128
+auth:
+    username: admin
+    password: ChangeMeNow!
